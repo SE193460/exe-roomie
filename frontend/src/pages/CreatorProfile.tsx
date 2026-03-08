@@ -1,5 +1,5 @@
 import React from 'react';
-import { Camera, Edit2, Link as LinkIcon, Moon, Sun, Home, Volume2, Settings2, Hand, Flame, Search } from 'lucide-react';
+import { Camera, Edit2, Link as LinkIcon, Moon, Sun, Home, Volume2, Settings2, Hand, Flame } from 'lucide-react';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import './CreatorProfile.css';

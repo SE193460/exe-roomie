@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Edit2, EyeOff, Share2, Eye, Trash2, Plus, Users, BarChart3 } from 'lucide-react';
+import { Edit2, EyeOff, Share2, Eye, Trash2, Plus, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';

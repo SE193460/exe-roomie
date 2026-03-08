@@ -1,12 +1,11 @@
 import React from 'react';
 import { MapPin, Maximize, Users, Target, ShieldCheck, Play, Heart } from 'lucide-react';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import './PostDetails.css';
 
 const PostDetails: React.FC = () => {
-    const { id } = useParams();
 
     // Mock post data based on design
     const postInfo = {

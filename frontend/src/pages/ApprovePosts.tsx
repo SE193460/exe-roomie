@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Filter, Eye, Check, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import {Filter, Eye, Check, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import '../pages/ManageUsers.css'; // Reusing common admin table styles

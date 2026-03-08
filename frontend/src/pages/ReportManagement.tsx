@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Filter, Eye, CheckCircle, FileText } from 'lucide-react';
+import { Filter, Eye, CheckCircle, FileText } from 'lucide-react';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import '../pages/ManageUsers.css'; // Reusing common admin table styles
