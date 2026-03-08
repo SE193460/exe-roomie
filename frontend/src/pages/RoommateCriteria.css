@@ -1,0 +1,370 @@
+.criteria-page {
+    background-color: #fafbfc;
+    padding: 3rem 0 6rem;
+    min-height: calc(100vh - 80px);
+}
+
+.criteria-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.criteria-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+
+.criteria-subtitle {
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.criteria-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto 3rem;
+}
+
+@media (min-width: 768px) {
+    .criteria-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.criteria-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-main);
+}
+
+.section-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Colors specifically for this page icons */
+.bg-green-light {
+    background-color: #d1fae5;
+}
+
+.text-green {
+    color: #059669;
+}
+
+.bg-purple-light {
+    background-color: #e0e7ff;
+}
+
+.text-purple {
+    color: #8b5cf6;
+}
+
+.bg-orange-light {
+    background-color: #ffedd5;
+}
+
+.text-orange {
+    color: #ea580c;
+}
+
+.bg-blue-light {
+    background-color: #e0f2fe;
+}
+
+.text-blue {
+    color: #0ea5e9;
+}
+
+.filter-group {
+    margin-bottom: 1.5rem;
+}
+
+.filter-group:last-child {
+    margin-bottom: 0;
+}
+
+.filter-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75rem;
+}
+
+/* Pill Buttons */
+.pill-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.pill-btn {
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--secondary);
+    background-color: white;
+    color: var(--text-main);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.pill-btn:hover {
+    border-color: #cbd5e1;
+}
+
+.pill-btn.active {
+    border-color: var(--primary-hover);
+    color: var(--primary-hover);
+    background-color: rgba(0, 224, 255, 0.05);
+}
+
+/* Pill Icon Buttons for Gender */
+.pill-group-icons {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.pill-icon-btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    max-width: 80px;
+    border: 1px solid var(--secondary);
+    background-color: white;
+    color: var(--text-main);
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.pill-icon-btn.active {
+    border-color: var(--primary-hover);
+    color: var(--primary-hover);
+    background-color: rgba(0, 224, 255, 0.05);
+}
+
+/* Sliders */
+.slider-wrapper {
+    margin-top: 0.5rem;
+    position: relative;
+}
+
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+    /* pull down closer to slider */
+    padding: 0 4px;
+    /* match thumb offset */
+}
+
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.criteria-slider {
+    width: 100%;
+    height: 6px;
+    background: var(--secondary);
+    border-radius: 3px;
+    outline: none;
+    appearance: none;
+    margin-top: 1rem;
+}
+
+.criteria-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--primary-hover);
+    cursor: pointer;
+    border: 4px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Toggle Switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider.round {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cbd5e1;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+.slider.round:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider.round {
+    background-color: var(--primary-hover);
+}
+
+input:checked+.slider.round:before {
+    transform: translateX(20px);
+}
+
+/* Priority List */
+.priority-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.priority-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.radio-custom {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #cbd5e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.radio-custom.checked {
+    border-color: var(--primary-hover);
+    background-color: var(--primary-hover);
+}
+
+.radio-custom.checked::after {
+    content: '✓';
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.priority-title {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--text-main);
+    margin-bottom: 0.25rem;
+}
+
+.priority-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Actions */
+.criteria-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.btn-apply {
+    padding: 1rem 3rem !important;
+    font-size: 1.125rem !important;
+    border-radius: var(--radius-full) !important;
+}
+
+.btn-reset {
+    padding: 1rem 2rem !important;
+    background-color: white !important;
+    border: none !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Utils */
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-main {
+    color: var(--text-main);
+}
+
+.shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 224, 255, 0.4), 0 10px 10px -5px rgba(0, 224, 255, 0.1);
+}

@@ -1,0 +1,255 @@
+.creator-profile-page {
+    background-color: #fafbfc;
+    padding: 3rem 0 6rem;
+    /* Increased bottom padding */
+    min-height: calc(100vh - 80px);
+}
+
+/* Header Card */
+.profile-header-card {
+    margin-bottom: 2rem;
+    border-radius: 1.5rem !important;
+    border: none !important;
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05) !important;
+}
+
+.profile-header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .profile-header-content {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+}
+
+.profile-avatar-wrapper {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, rgba(0, 224, 255, 1) 0%, rgba(0, 180, 255, 1) 100%);
+}
+
+.profile-avatar-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.btn-edit-avatar {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    background-color: var(--primary-hover);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-edit-avatar:hover {
+    transform: scale(1.1);
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-main);
+}
+
+.verified-badge-pill {
+    background-color: rgba(0, 224, 255, 0.1);
+    color: var(--primary-hover);
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-full);
+    letter-spacing: 0.05em;
+}
+
+.profile-meta {
+    font-size: 1rem;
+}
+
+.bg-primary-light {
+    background-color: rgba(0, 224, 255, 0.1);
+}
+
+@media (max-width: 767px) {
+    .ml-auto {
+        margin-left: unset;
+        width: 100%;
+    }
+
+    .profile-action-section button {
+        width: 100%;
+    }
+}
+
+/* Content Grid */
+.profile-content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .profile-content-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.info-block-card {
+    height: 100%;
+    border-radius: 1.5rem !important;
+    border: none !important;
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Traits Grid */
+.traits-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .traits-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.trait-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.trait-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-gray-50 {
+    background-color: #f8fafc;
+}
+
+.trait-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.trait-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-bottom: 0.125rem;
+}
+
+.trait-value {
+    color: var(--text-main);
+    font-size: 0.9375rem;
+}
+
+/* Colors */
+.bg-blue-light {
+    background-color: #e0f2fe;
+}
+
+.text-blue {
+    color: #0ea5e9;
+}
+
+.bg-cyan-light {
+    background-color: #cffafe;
+}
+
+.text-cyan {
+    color: #06b6d4;
+}
+
+.bg-green-light {
+    background-color: #dcfce7;
+}
+
+.text-green {
+    color: #10b981;
+}
+
+.bg-teal-light {
+    background-color: #ccfbf1;
+}
+
+.text-teal {
+    color: #14b8a6;
+}
+
+.bg-cyan-lightest {
+    background-color: #f0fdff !important;
+}
+
+/* Other info */
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.border-gray-100 {
+    border-color: #f1f5f9;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.w-2 {
+    width: 0.5rem;
+}
+
+.h-2 {
+    height: 0.5rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+/* Overrides */
+.ml-auto {
+    margin-left: auto;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-gray-600 {
+    color: #475569;
+}
+
+.shadow-sm {
+    box-shadow: var(--shadow-sm);
+}

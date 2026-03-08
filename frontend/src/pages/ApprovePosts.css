@@ -1,0 +1,63 @@
+.approve-posts-table th.title-col {
+    width: 25%;
+}
+
+.status-pending {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.status-rejected {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* Specific to approve posts page where icons lack backgrounds initially */
+.approve-posts-table .action-btn {
+    background-color: transparent;
+}
+
+.text-blue-600 {
+    color: #2563eb;
+}
+
+.whitespace-normal {
+    white-space: normal !important;
+}
+
+.max-w-\[200px\] {
+    max-width: 200px;
+}
+
+.max-w-\[120px\] {
+    max-width: 120px;
+}
+
+.leading-snug {
+    line-height: 1.375;
+}
+
+.pl-4 {
+    padding-left: 1rem !important;
+}
+
+.h-\[42px\] {
+    height: 42px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+.mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.text-gray-500 {
+    color: #6b7280;
+}
