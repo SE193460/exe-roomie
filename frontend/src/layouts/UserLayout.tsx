@@ -101,7 +101,7 @@ const UserLayout: React.FC = () => {
                         <div className="logo-icon bg-gradient-primary">
                             <MapPin size={20} color="white" />
                         </div>
-                        <span className="logo-text">TimO</span>
+                        <span className="logo-text">Roomie</span>
                     </Link>
                     <button className="close-sidebar-btn" onClick={toggleMenu}>
                         <X size={24} />
@@ -173,7 +173,7 @@ const UserLayout: React.FC = () => {
                                 <div className="logo-icon bg-gradient-primary">
                                     <MapPin size={24} color="white" />
                                 </div>
-                                <span className="logo-text text-xl">TimO</span>
+                                <span className="logo-text text-xl">Roomie</span>
                             </Link>
                             <p className="footer-desc mt-4">
                                 Nền tảng kết nối sinh viên và người trẻ Việt Nam tìm kiếm bạn cùng phòng lý tưởng dựa trên sở thích, lối sống và ngân sách phù hợp.
@@ -187,7 +187,7 @@ const UserLayout: React.FC = () => {
                         </div>
 
                         <div className="footer-links-col">
-                            <h3 className="footer-heading">Về TimO</h3>
+                            <h3 className="footer-heading">Về Roomie</h3>
                             <ul>
                                 <li><a href="#">Giới thiệu</a></li>
                                 <li><a href="#">Cách hoạt động</a></li>
