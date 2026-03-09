@@ -13,7 +13,7 @@ const AdminLayout: React.FC = () => {
                         <MapPin size={24} color="white" />
                     </div>
                     <div>
-                        <h1 className="admin-brand-title">TimO</h1>
+                        <h1 className="admin-brand-title">Roomie</h1>
                         <p className="admin-brand-subtitle">ADMIN PANEL</p>
                     </div>
                 </Link>

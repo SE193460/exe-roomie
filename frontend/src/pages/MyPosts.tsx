@@ -20,7 +20,7 @@ const myPosts = [
         title: 'Căn hộ cao cấp Quận 7',
         price: '4.200.000đ/tháng',
         status: 'ĐANG HOẠT ĐỘNG',
-        image: 'https://images.unsplash.com/photo-1502672260266-1c1de2d93145?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+        image: 'https://img.jamesedition.com/listing_images/2022/10/10/13/31/32/cf428584-be5a-4982-93a9-bdf1c835d28d/je/1040x620xc.jpg',
         isActive: true
     },
     {
@@ -36,7 +36,7 @@ const myPosts = [
         title: 'Phòng Master Phú Nhuận',
         price: '5.000.000đ/tháng',
         status: 'ĐANG HOẠT ĐỘNG',
-        image: 'https://images.unsplash.com/photo-1598928506311-c55dd1b48b11?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+        image: 'https://imgcp.aacdn.jp/img-a/1720/auto/global-aaj-front/article/2017/03/58d8c0ee86308_58d8be342959a_457274584.jpg',
         isActive: true
     }
 ];

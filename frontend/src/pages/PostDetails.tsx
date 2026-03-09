@@ -12,11 +12,11 @@ const PostDetails: React.FC = () => {
         title: 'Tìm nữ ở ghép phòng đầy đủ tiện nghi gần ĐH Kinh Tế',
         price: '2.000.000đ',
         images: [
-            'https://images.unsplash.com/photo-1598928506311-c55dd1b48b11?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            'https://afamilycdn.com/2017/img20170215090839975.jpg',
             'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            'https://images.unsplash.com/photo-1502672260266-1c1de2d93145?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            'https://img.thuthuatphanmem.vn/uploads/2018/10/09/anh-nha-dep-bang-kinh-view-dep_041507935.jpg',
             'https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            'https://images.unsplash.com/photo-1540228741366-07ceb2fdcf82?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            'https://noithatmyhouse.com/wp-content/uploads/2024/07/bep-nha-ong-dep-2.jpg',
         ],
         features: [
             { id: 'area', icon: <MapPin size={18} />, label: 'KHU VỰC', value: 'Quận 10' },
@@ -43,7 +43,7 @@ const PostDetails: React.FC = () => {
     };
 
     const similarPosts = [
-        { title: 'Tìm bạn nữ Share phòng chung cư Ngô Gia Tự', price: '2.200.000đ/tháng', location: 'Quận 10', time: '2 giờ trước', imageUrl: 'https://images.unsplash.com/photo-1502672260266-1c1de2d93145?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
+        { title: 'Tìm bạn nữ Share phòng chung cư Ngô Gia Tự', price: '2.200.000đ/tháng', location: 'Quận 10', time: '2 giờ trước', imageUrl: 'https://vinavic.vn/upload_images/images/2023/06/27/compress/nha-dep-hien-dai-co-ho-boi-013.jpeg.webp' },
         { title: 'Phòng trọ gần ĐH Kinh tế CS Nguyễn Đình Chiểu', price: '2.500.000đ/tháng', location: 'Quận 3', time: '1 ngày trước', imageUrl: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
         { title: 'Góc nhỏ decor xinh xắn cho 2 nữ ở ghép', price: '1.800.000đ/tháng', location: 'Quận 10', time: '5 giờ trước', imageUrl: 'https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
     ];

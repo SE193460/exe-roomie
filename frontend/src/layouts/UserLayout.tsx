@@ -46,7 +46,7 @@ const UserLayout: React.FC = () => {
                             <div className="logo-icon bg-gradient-primary">
                                 <MapPin size={20} color="white" />
                             </div>
-                            <span className="logo-text">TimO</span>
+                            <span className="logo-text">Roomie</span>
                         </Link>
                     </div>
 

@@ -14,7 +14,7 @@ const posts = [
         location: 'Quận 1, TP.HCM',
         tag: 'MỚI ĐĂNG',
         target: 'Tìm 1 Nữ',
-        imageUrl: 'https://images.unsplash.com/photo-1598928506311-c55dd1b48b11?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        imageUrl: 'https://haycafe.vn/wp-content/uploads/2022/01/Hinh-anh-ngoi-nha-dep.jpg',
     },
     {
         id: 2,
@@ -31,7 +31,7 @@ const posts = [
         price: '2.800.000đ',
         location: 'Quận Bình Thạnh',
         target: 'Tìm 2 Nữ',
-        imageUrl: 'https://images.unsplash.com/photo-1502672260266-1c1de2d93145?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        imageUrl: 'https://antimatter.vn/wp-content/uploads/2022/05/hinh-anh-nha-dep-hien-dai.jpg',
     },
     {
         id: 4,
